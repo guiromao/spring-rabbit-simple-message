@@ -13,10 +13,5 @@ public class Consumer {
 	public void consume(OrderStatus orderStatus) {
 		System.out.println(orderStatus);
 	}
-	
-	@RabbitListener(queues = "queue2")
-	public void consume2(String string) {
-		System.out.println(string);
-	}
 
 }
