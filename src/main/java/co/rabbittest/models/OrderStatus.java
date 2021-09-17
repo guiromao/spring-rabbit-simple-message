@@ -18,7 +18,7 @@ public class OrderStatus {
 	
 	@Override
 	public String toString() {
-		return "Order=" + order + " | Status=" + status + " | Message=" + message;
+		return "{Order=" + order + " | Status=" + status + " | Message=" + message + "}";
 	}
 	
 	public Order getOrder() {

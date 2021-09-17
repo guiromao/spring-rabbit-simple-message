@@ -26,8 +26,8 @@ public class Order {
 	
 	@Override
 	public String toString() {
-		return "[UUID=" + id + " | Item=" + item + " | Quantity=" + quantity + 
-				" | Price=" + price;
+		return "{UUID=" + id + " | Item=" + item + " | Quantity=" + quantity + 
+				" | Price=" + price + "}";
 	}
 	
 	public UUID getId() {
